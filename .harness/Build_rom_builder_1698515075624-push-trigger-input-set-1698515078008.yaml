@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rom_builder_1698515075624-push-trigger-input-set
+  identifier: Build_rom_builder_1698515075624pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Default_Project_1659611012963
+  pipeline:
+    identifier: Build_rom_builder_1698515075624
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
